@@ -1,6 +1,12 @@
+"use client";
+
 import { profile } from "@/lib/data";
+import { usePathname } from "next/navigation";
 
 export default function Footer() {
+  const pathname = usePathname();
+  if (pathname === "/ieee-author") return null;
+
   return (
     <footer className="border-t border-line bg-[linear-gradient(180deg,#ffffff,rgba(251,250,247,0.95))]">
       <div className="mx-auto flex max-w-5xl flex-col gap-3 px-6 py-10 text-sm text-muted sm:flex-row sm:items-center sm:justify-between">

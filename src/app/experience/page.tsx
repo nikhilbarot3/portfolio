@@ -4,8 +4,8 @@ import { experience } from "@/lib/data";
 export default function ExperiencePage() {
   return (
     <div className="mx-auto max-w-5xl px-6 py-20">
-      <SectionTag>work experience</SectionTag>
-      <h1 className="font-display text-4xl font-bold text-paper">Work log</h1>
+      {/* <SectionTag>work experience</SectionTag> */}
+      <h1 className="font-display text-4xl font-bold text-paper">Work Experience: 2015 to Present</h1>
 
       <div className="mt-12 space-y-10 border-l border-line pl-8">
         {experience.map((job) => (

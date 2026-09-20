@@ -147,36 +147,36 @@ export const articles = [
 ];
 
 export const collaborationAreas = [
-  {
-    title: "Healthcare AI research",
-    summary:
-      "Signal processing, model evaluation, and clinically grounded machine learning for ECG and real-world health data.",
-  },
-  {
-    title: "Generative AI systems",
-    summary:
-      "RAG, evaluation pipelines, agentic workflows, and production guardrails for enterprise use cases.",
-  },
-  {
-    title: "Finance AI and automation",
-    summary:
-      "Modeling, validation, and workflow automation for financial systems, analytics, and engineering productivity.",
-  },
-  {
-    title: "AI evaluation and observability",
-    summary:
-      "Fairness checks, confidence analysis, RAGAS, DeepEval, and monitoring design.",
-  },
+  // {
+  //   title: "Healthcare AI research",
+  //   summary:
+  //     "Signal processing, model evaluation, and clinically grounded machine learning for ECG and real-world health data.",
+  // },
+  // {
+  //   title: "Generative AI systems",
+  //   summary:
+  //     "RAG, evaluation pipelines, agentic workflows, and production guardrails for enterprise use cases.",
+  // },
+  // {
+  //   title: "Finance AI and automation",
+  //   summary:
+  //     "Modeling, validation, and workflow automation for financial systems, analytics, and engineering productivity.",
+  // },
+  // {
+  //   title: "AI evaluation and observability",
+  //   summary:
+  //     "Fairness checks, confidence analysis, RAGAS, DeepEval, and monitoring design.",
+  // },
 ];
 
 export const authorProfile = {
-  journal : "ELsevier,IEEE Xplore",
-  status: "Presented research paper on PDM at IEEE MLISE 2026, and submitted a paper to Elsevier in June 2026.",
+  // journal : "ELsevier,IEEE Xplore",
+  // status: "Presented research paper on PDM at IEEE MLISE 2026, and submitted a paper to Elsevier in June 2026.",
   focus:
-    "Deep learning for safety-critical systems, especially healthcare ECG analysis and predictive maintenance.",
+    "Travel through the places, roles, and ideas that shaped my work.",
   contributions: [
-    "Biologically inspired Neuroidal Network design for clinical ECG classification",
-    "Regime-aware SAMB-GRU framework for aerospace predictive maintenance",
+    // "Biologically inspired Neuroidal Network design for clinical ECG classification",
+    // "Regime-aware SAMB-GRU framework for aerospace predictive maintenance",
   ],
 };
 
@@ -193,8 +193,8 @@ export const hireMe = {
 
 export const experience = [
   {
-    company: "Central Michigan University",
-    role: "ML Research Engineer",
+    company: "Central Michigan University -Computer Science Department",
+    role: "Machine Learning Research Engineer",
     period: "Mar 2025 - May 2026",
     points: [
       "Invented a Neuroidal Network for clinical ECG analysis, replacing standard perceptrons with biologically inspired neuroidal units and encoding topologies via adjacency matrices.",
@@ -204,12 +204,21 @@ export const experience = [
   },
   {
     company: "Central Michigan University - Office of Information & Technology",
-    role: "ML Engineer",
+    role: "AI Engineer",
     period: "May 2025 - Aug 2025",
     points: [
       "Architected production RAG systems with Pinecone, LangChain, and FastAPI, improving retrieval accuracy by 40% and reducing response time.",
       "Built AI safety and monitoring controls with Guardrails AI and Microsoft Presidio for prompt filtering, PII detection, and observability.",
       "Developed UI and backend improvements for service ticket management using C#, .NET, TypeScript, and SQL, reducing open tickets by 40%.",
+    ],
+  },
+    {
+    company: "Central Michigan University - College of Education and Human Services",
+    role: "Research Assistant - NSF Grant Project",
+    period: "April 2025 - Aug 2025",
+    points: [
+      "Assist in research exploring the role of scientific curiosity in shaping STEM career interests among K-12 students, including qualitative analysis of student interactions and support for data collection and video-based observational studies as part of NSF ( National Science Foundation - Grant Project)",
+      "Conducted Community outreach Programs in Mount pleasant"
     ],
   },
   {
@@ -220,6 +229,7 @@ export const experience = [
       "Built GenAI-powered engineering automation using GPT-4, LangChain, DSPy, and evaluation pipelines, reducing development cycle time by 60%.",
       "Designed LLM evaluation frameworks for accuracy, fairness, and response quality, and built a multi-agent Jira-driven QA workflow.",
       "Led 8 engineers, mentored junior team members, presented to onshore clients across NA and EMEA, and maintained 92% stakeholder satisfaction.",
+      "Promoted to Associate in 2023 from Team leader and received the 'Spotlight Award' for innovation and impact in 2024.",
     ],
   },
   {

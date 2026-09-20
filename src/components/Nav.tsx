@@ -11,8 +11,8 @@ const links = [
   { href: "/projects", label: "Projects" },
   { href: "/research", label: "Publications" },
   { href: "/articles", label: "Scholary Service" },
-  { href: "/collaboration", label: "Lets Collaborate" },
-  { href: "/ieee-author", label: "IEEE author" },
+  { href: "/collaboration", label: "Awards" },
+  { href: "/ieee-author", label: "Games" },
   { href: "/hire-me", label: "Hire me" },
 ];
 
