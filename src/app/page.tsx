@@ -110,8 +110,8 @@ export default function Home() {
 
                 <div className="rounded-2xl border border-line bg-[rgba(255,255,255,0.55)] p-4 backdrop-blur-sm">
                   <p className="font-mono text-[11px] uppercase tracking-[0.2em] text-muted">IEEE author</p>
-                  <p className="mt-2 font-display text-lg font-semibold text-paper">{authorProfile.journal}</p>
-                  <p className="mt-1 text-sm text-muted">{authorProfile.status}</p>
+                  <p className="mt-2 font-display text-lg font-semibold text-paper">{(authorProfile as any).journal}</p>
+                  <p className="mt-1 text-sm text-muted">{(authorProfile as any).status}</p>
                 </div>
               </div>
             </aside>

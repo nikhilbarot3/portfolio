@@ -122,7 +122,8 @@ function buildReply(input: string) {
     question.includes("genai") ||
     question.includes("focus")
   ) {
-    const focus = collaborationAreas.map((area) => area.title).join(", ");
+    // const focus = collaborationAreas.map((area) => area.title).join(", ");
+    const focus = (collaborationAreas as any[]).map((area) => area.title || "").filter(Boolean).join(", ");
     return `The main focus areas are ${focus}.`;
   }
 
